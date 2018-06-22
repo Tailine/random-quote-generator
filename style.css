@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Lobster');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00A572;
+    color: #fff;
+}
+
+/* #00A86B */
+.heading {
+    text-align: center;
+    padding: 1em;
+    font-size: 4em;
+    font-family: 'Courgette', Arial, Helvetica, sans-serif;
+}
+
+.box {
+    background-color: #ffffff;
+    height: auto;
+    width: 50%;
+    margin: 0 auto;
+    color: #28303a;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+/* ******* BUTTONS ******* */
+.btn {
+    background-color: #00A572;
+    color: #fff;
+    padding: .5em;
+    border: solid #fff 1px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btn-quote {
+    margin-right: 2em;
+}
+
+#btn-twitter {
+    margin-left: 2em;
+}
+
+/* ******* QUOTE ******** */
+#quote {
+    padding: 1.5em 3em;
+    font-size: 22px;
+}
+
+blockquote {
+    margin: 1.2em 0 20px 3em;
+}
+
+#author {
+    font-weight: bold;
+    color: #00A572;
+    font-size: 18px;
+    padding-right: 2.5rem;
+}
+
+.author-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-quote {
+    width: 2.5em;
+    /* display: inline; */
+    float: left;
+}
+
