@@ -60,6 +60,17 @@ body {
     margin-left: 2em;
 }
 
+#twitter {
+    text-decoration: none;
+    color: #fff;
+}
+
+#twitter-icon {
+    position: relative;
+    top: 5px;
+    padding: 0;
+    /* margin: 0; */
+}
 /* ******* QUOTE ******** */
 #quote {
     padding: 1.5em 3em;

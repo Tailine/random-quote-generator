@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,14 +15,13 @@
         <!-- </div> -->
         <div id="quote">
             <img class="img-quote" src="img/quotation.png" alt="left quotation mark">
-            <blockquote></blockquote>
+            <blockquote id="quote-text"></blockquote>
             <div class="author-div">
                 <cite id="author"></cite>
             </div>
-            <cite id="author"></cite>
         </div>
         <div class="btn-div">
-            <button class="btn" id="btn-twitter">Twitter</button>
+            <button class="btn" id="btn-twitter"><i class="fab fa-twitter"></i> <a id="twitter">Tweet</a></button>
             <button class="btn" id="btn-quote">New Quote</button>
         </div> 
     </div>
@@ -29,3 +29,5 @@
 
 <script src="app.js"></script>
 </html>
+
+<!-- <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
